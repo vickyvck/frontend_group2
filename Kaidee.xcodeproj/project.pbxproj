@@ -14,6 +14,17 @@
 		9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */; };
 		9846E3DA1E94C401006C9E75 /* KaideeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3D91E94C401006C9E75 /* KaideeTests.swift */; };
 		9846E3E51E94C401006C9E75 /* KaideeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3E41E94C401006C9E75 /* KaideeUITests.swift */; };
+		9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3F41E94CC3E006C9E75 /* .gitkeep */; };
+		9846E4081E94CC3E006C9E75 /* ic_cross_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3F51E94CC3E006C9E75 /* ic_cross_white@2x.png */; };
+		9846E4091E94CC3E006C9E75 /* ic_cross_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3F61E94CC3E006C9E75 /* ic_cross_white@3x.png */; };
+		9846E40A1E94CC3E006C9E75 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3F81E94CC3E006C9E75 /* .gitkeep */; };
+		9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FA1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift */; };
+		9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FB1E94CC3E006C9E75 /* ImageSlideshow.swift */; };
+		9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FC1E94CC3E006C9E75 /* ImageSlideshowItem.swift */; };
+		9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FD1E94CC3E006C9E75 /* InputSource.swift */; };
+		9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FE1E94CC3E006C9E75 /* UIImage+AspectFit.swift */; };
+		9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FF1E94CC3E006C9E75 /* UIImageView+Tools.swift */; };
+		9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		9846E3E01E94C401006C9E75 /* KaideeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaideeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3E41E94C401006C9E75 /* KaideeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaideeUITests.swift; sourceTree = "<group>"; };
 		9846E3E61E94C401006C9E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9846E3F41E94CC3E006C9E75 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9846E3F51E94CC3E006C9E75 /* ic_cross_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_cross_white@2x.png"; sourceTree = "<group>"; };
+		9846E3F61E94CC3E006C9E75 /* ic_cross_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_cross_white@3x.png"; sourceTree = "<group>"; };
+		9846E3F81E94CC3E006C9E75 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		9846E3FA1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenSlideshowViewController.swift; sourceTree = "<group>"; };
+		9846E3FB1E94CC3E006C9E75 /* ImageSlideshow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlideshow.swift; sourceTree = "<group>"; };
+		9846E3FC1E94CC3E006C9E75 /* ImageSlideshowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSlideshowItem.swift; sourceTree = "<group>"; };
+		9846E3FD1E94CC3E006C9E75 /* InputSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSource.swift; sourceTree = "<group>"; };
+		9846E3FE1E94CC3E006C9E75 /* UIImage+AspectFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AspectFit.swift"; sourceTree = "<group>"; };
+		9846E3FF1E94CC3E006C9E75 /* UIImageView+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Tools.swift"; sourceTree = "<group>"; };
+		9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
+				9846E3F21E94CC3E006C9E75 /* ImageSlideshow */,
 				9846E3C31E94C401006C9E75 /* Kaidee */,
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
 				9846E3E31E94C401006C9E75 /* KaideeUITests */,
@@ -123,6 +146,56 @@
 				9846E3E61E94C401006C9E75 /* Info.plist */,
 			);
 			path = KaideeUITests;
+			sourceTree = "<group>";
+		};
+		9846E3F21E94CC3E006C9E75 /* ImageSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				9846E3F31E94CC3E006C9E75 /* Assets */,
+				9846E3F71E94CC3E006C9E75 /* Classes */,
+			);
+			path = ImageSlideshow;
+			sourceTree = "<group>";
+		};
+		9846E3F31E94CC3E006C9E75 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9846E3F41E94CC3E006C9E75 /* .gitkeep */,
+				9846E3F51E94CC3E006C9E75 /* ic_cross_white@2x.png */,
+				9846E3F61E94CC3E006C9E75 /* ic_cross_white@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9846E3F71E94CC3E006C9E75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9846E3F81E94CC3E006C9E75 /* .gitkeep */,
+				9846E3F91E94CC3E006C9E75 /* Core */,
+				9846E4011E94CC3E006C9E75 /* InputSources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9846E3F91E94CC3E006C9E75 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9846E3FA1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift */,
+				9846E3FB1E94CC3E006C9E75 /* ImageSlideshow.swift */,
+				9846E3FC1E94CC3E006C9E75 /* ImageSlideshowItem.swift */,
+				9846E3FD1E94CC3E006C9E75 /* InputSource.swift */,
+				9846E3FE1E94CC3E006C9E75 /* UIImage+AspectFit.swift */,
+				9846E3FF1E94CC3E006C9E75 /* UIImageView+Tools.swift */,
+				9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9846E4011E94CC3E006C9E75 /* InputSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InputSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +305,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9846E4091E94CC3E006C9E75 /* ic_cross_white@3x.png in Resources */,
 				9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */,
 				9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */,
 				9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */,
+				9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */,
+				9846E4081E94CC3E006C9E75 /* ic_cross_white@2x.png in Resources */,
+				9846E40A1E94CC3E006C9E75 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
+				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
+				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
+				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
+				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
+				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
+				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kaidee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vicky.Kaidee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kaidee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vicky.Kaidee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
