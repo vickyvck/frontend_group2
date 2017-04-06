@@ -16,13 +16,25 @@ class editPass: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
+    @IBOutlet var inputPassword: UITextField!
+    
+    
+    @IBAction func savePass(_ sender: Any) {
+        var passWord = String(inputPassword.text!)
+        //เก็บค่า -รหัสผ่านไว้ใน password
+    }
+    
+    
+
     /*
+     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

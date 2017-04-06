@@ -1,18 +1,28 @@
 //
-//  editEmail.swift
+//  Preference.swift
 //  Kaidee
 //
-//  Created by Admin on 4/6/2560 BE.
+//  Created by Vicky on 4/6/2560 BE.
 //  Copyright © 2560 Group2. All rights reserved.
 //
 
 import UIKit
 
-class editEmail: UIViewController {
+class Preference: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
 
+    @IBOutlet weak var Picker1: UIPickerView!
+   
+    var Array = ["FIRST HAND","SECOND HAND"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //comment
+        
+        Picker1.delegate = self
+        Picker1.dataSource = self
+        
+       
         // Do any additional setup after loading the view.
     }
 
@@ -21,12 +31,19 @@ class editEmail: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet var inputEmail: UITextField!
-
-    @IBAction func saveEmail(_ sender: Any) {
-        var email = String(inputEmail.text!)
-        //เก็บค่า -อีเมลไว้ใน email
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return Array[row]
     }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return Array.count
+    }
+    
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int{
+        return 1
+    }
+    
+
     /*
     // MARK: - Navigation
 
