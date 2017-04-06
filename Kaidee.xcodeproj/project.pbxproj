@@ -16,6 +16,7 @@
 		840A16651E96816A00CC359A /* editEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A16641E96816A00CC359A /* editEmail.swift */; };
 		840A16671E9681B400CC359A /* editPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A16661E9681B400CC359A /* editPass.swift */; };
 		840A16691E96824800CC359A /* editName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A16681E96824800CC359A /* editName.swift */; };
+		840A166D1E968D8E00CC359A /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A166C1E968D8E00CC359A /* profile.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 		840A16641E96816A00CC359A /* editEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editEmail.swift; sourceTree = "<group>"; };
 		840A16661E9681B400CC359A /* editPass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editPass.swift; sourceTree = "<group>"; };
 		840A16681E96824800CC359A /* editName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editName.swift; sourceTree = "<group>"; };
+		840A166C1E968D8E00CC359A /* profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				840A16641E96816A00CC359A /* editEmail.swift */,
 				840A16661E9681B400CC359A /* editPass.swift */,
 				840A16681E96824800CC359A /* editName.swift */,
+				840A166C1E968D8E00CC359A /* profile.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E4261E960860006C9E75 /* Preference.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
+				840A166D1E968D8E00CC359A /* profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
