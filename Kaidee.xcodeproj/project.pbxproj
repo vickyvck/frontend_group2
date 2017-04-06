@@ -10,9 +10,11 @@
 		3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8561E95FDD20081B670 /* sellerProfile.swift */; };
 		3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8621E9625FB0081B670 /* SellerProduct.swift */; };
 		3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8641E9637DE0081B670 /* ProductName.swift */; };
+		840A165F1E967B3300CC359A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A165E1E967B3300CC359A /* Main.storyboard */; };
+		840A166B1E9683EE00CC359A /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A166A1E9683EE00CC359A /* profile.swift */; };
+		84F8AA121E964F0D008B7A1E /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
-		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
 		9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CB1E94C401006C9E75 /* Assets.xcassets */; };
 		9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */; };
 		9846E3DA1E94C401006C9E75 /* KaideeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3D91E94C401006C9E75 /* KaideeTests.swift */; };
@@ -54,10 +56,12 @@
 		3CDEB8561E95FDD20081B670 /* sellerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sellerProfile.swift; sourceTree = "<group>"; };
 		3CDEB8621E9625FB0081B670 /* SellerProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerProduct.swift; sourceTree = "<group>"; };
 		3CDEB8641E9637DE0081B670 /* ProductName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductName.swift; sourceTree = "<group>"; };
+		840A165E1E967B3300CC359A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		840A166A1E9683EE00CC359A /* profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9846E3C91E94C401006C9E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9846E3CB1E94C401006C9E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9846E3CE1E94C401006C9E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9846E3D01E94C401006C9E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
+				84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */,
 				9846E3F21E94CC3E006C9E75 /* ImageSlideshow */,
 				9846E3C31E94C401006C9E75 /* Kaidee */,
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
@@ -132,9 +137,9 @@
 		9846E3C31E94C401006C9E75 /* Kaidee */ = {
 			isa = PBXGroup;
 			children = (
+				840A165E1E967B3300CC359A /* Main.storyboard */,
 				9846E3C41E94C401006C9E75 /* AppDelegate.swift */,
 				9846E3C61E94C401006C9E75 /* ViewController.swift */,
-				9846E3C81E94C401006C9E75 /* Main.storyboard */,
 				9846E4251E960860006C9E75 /* Preference.swift */,
 				9846E4231E95FE9B006C9E75 /* Register.swift */,
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
@@ -143,6 +148,7 @@
 				3CDEB8561E95FDD20081B670 /* sellerProfile.swift */,
 				3CDEB8621E9625FB0081B670 /* SellerProduct.swift */,
 				3CDEB8641E9637DE0081B670 /* ProductName.swift */,
+				840A166A1E9683EE00CC359A /* profile.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -322,10 +328,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A165F1E967B3300CC359A /* Main.storyboard in Resources */,
 				9846E4091E94CC3E006C9E75 /* ic_cross_white@3x.png in Resources */,
 				9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */,
 				9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */,
-				9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */,
 				9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */,
 				9846E4081E94CC3E006C9E75 /* ic_cross_white@2x.png in Resources */,
 				9846E40A1E94CC3E006C9E75 /* .gitkeep in Resources */,
@@ -356,6 +362,7 @@
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
+				84F8AA121E964F0D008B7A1E /* CosmosDistrib.swift in Sources */,
 				9846E42A1E962B0E006C9E75 /* Login.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
@@ -363,6 +370,7 @@
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
 				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
+				840A166B1E9683EE00CC359A /* profile.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
@@ -403,14 +411,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9846E3C81E94C401006C9E75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9846E3C91E94C401006C9E75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
