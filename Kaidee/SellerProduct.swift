@@ -1,5 +1,5 @@
 //
-//  sellerProfile.swift
+//  SellerProduct.swift
 //  Kaidee
 //
 //  Created by supidsara thantanaporn on 4/6/17.
@@ -8,18 +8,9 @@
 
 import UIKit
 
-class sellerProfile: UIViewController {
+class SellerProduct: UIViewController {
 
-    @IBOutlet weak var SellerPic: UIImageView!
     override func viewDidLoad() {
-        weak var TotalProduct: UIView!
-        weak var Review: UIScrollView!
-         weak var SellerRating: CosmosView!
-         weak var SellerInfo: UIView!
-         weak var InfoProduct: UISegmentedControl!
-         
-        
-         weak var sellerName: UILabel!
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

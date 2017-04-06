@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8561E95FDD20081B670 /* sellerProfile.swift */; };
 		3CDEB85B1E960B930081B670 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB85A1E960B930081B670 /* CosmosDistrib.swift */; };
+		3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8621E9625FB0081B670 /* SellerProduct.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		3CDEB8561E95FDD20081B670 /* sellerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sellerProfile.swift; sourceTree = "<group>"; };
 		3CDEB85A1E960B930081B670 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosDistrib.swift; path = "../../.Trash/Cosmos-master/Distrib/CosmosDistrib.swift"; sourceTree = "<group>"; };
+		3CDEB8621E9625FB0081B670 /* SellerProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerProduct.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
 				3CDEB8561E95FDD20081B670 /* sellerProfile.swift */,
+				3CDEB8621E9625FB0081B670 /* SellerProduct.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -342,15 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842C21C61E9605C200A04BB8 /* editEmail.swift in Sources */,
-				842C21C81E96082700A04BB8 /* editPass.swift in Sources */,
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
-				842C21C41E9604A400A04BB8 /* editName.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
+				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
