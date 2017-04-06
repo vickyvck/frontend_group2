@@ -25,6 +25,9 @@
 		9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FE1E94CC3E006C9E75 /* UIImage+AspectFit.swift */; };
 		9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3FF1E94CC3E006C9E75 /* UIImageView+Tools.swift */; };
 		9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */; };
+		9846E4241E95FE9B006C9E75 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4231E95FE9B006C9E75 /* Register.swift */; };
+		9846E4261E960860006C9E75 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4251E960860006C9E75 /* Preference.swift */; };
+		9846E42A1E962B0E006C9E75 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4291E962B0E006C9E75 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		9846E3FE1E94CC3E006C9E75 /* UIImage+AspectFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AspectFit.swift"; sourceTree = "<group>"; };
 		9846E3FF1E94CC3E006C9E75 /* UIImageView+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Tools.swift"; sourceTree = "<group>"; };
 		9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		9846E4231E95FE9B006C9E75 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		9846E4251E960860006C9E75 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		9846E4291E962B0E006C9E75 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +129,12 @@
 				9846E3C41E94C401006C9E75 /* AppDelegate.swift */,
 				9846E3C61E94C401006C9E75 /* ViewController.swift */,
 				9846E3C81E94C401006C9E75 /* Main.storyboard */,
+				9846E4251E960860006C9E75 /* Preference.swift */,
+				9846E4231E95FE9B006C9E75 /* Register.swift */,
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
 				9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
+				9846E4291E962B0E006C9E75 /* Login.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -337,13 +346,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
+				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
+				9846E42A1E962B0E006C9E75 /* Login.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
+				9846E4261E960860006C9E75 /* Preference.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
