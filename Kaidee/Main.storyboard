@@ -883,7 +883,7 @@
                                 <rect key="frame" x="16" y="424.5" width="343" height="1021.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2A-xs-vWn">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1021.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RELIABLE :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pX-ZZ-mhr">
                                                 <rect key="frame" x="30" y="29" width="84" height="21"/>
@@ -1243,9 +1243,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="nq7-UR-7x2"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95725556883787244" green="0.95725556883787244" blue="0.95725556883787244" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1382,7 +1379,7 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cgf-6I-E25">
-                                <rect key="frame" x="0.0" y="238" width="375" height="1226"/>
+                                <rect key="frame" x="0.0" y="193" width="375" height="1271"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iPG-rO-n8E">
                                         <rect key="frame" x="0.0" y="8" width="375" height="604"/>
@@ -1458,10 +1455,7 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURRENT PRODUCTS" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFM-P7-q8m">
-                                <rect key="frame" x="16" y="193" width="315" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="s62-1T-J16"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="163.5" width="315" height="21.5"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <color key="textColor" red="0.0057568830215685707" green="0.26114910983269535" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1475,7 +1469,6 @@
                             <constraint firstItem="gna-iY-5fD" firstAttribute="top" secondItem="fU1-j5-qQU" secondAttribute="bottom" constant="572" id="FkN-ol-2Cj"/>
                             <constraint firstItem="hAZ-Oy-k9Z" firstAttribute="leading" secondItem="k0b-fm-zKf" secondAttribute="leadingMargin" constant="-8" id="Jt3-kS-VVb"/>
                             <constraint firstItem="Cgf-6I-E25" firstAttribute="top" secondItem="DBh-g4-iPs" secondAttribute="bottom" constant="8" id="L7p-Nl-sld"/>
-                            <constraint firstItem="iFM-P7-q8m" firstAttribute="top" secondItem="DBh-g4-iPs" secondAttribute="bottom" constant="8" symbolic="YES" id="MdN-vz-ncY"/>
                             <constraint firstItem="gna-iY-5fD" firstAttribute="leading" secondItem="JGM-LJ-SSW" secondAttribute="leading" id="N3i-Dh-666"/>
                             <constraint firstItem="gna-iY-5fD" firstAttribute="centerX" secondItem="DBh-g4-iPs" secondAttribute="centerX" id="NB6-gY-6ca"/>
                             <constraint firstAttribute="trailing" secondItem="Cgf-6I-E25" secondAttribute="trailing" id="NRa-Wb-5IS"/>
