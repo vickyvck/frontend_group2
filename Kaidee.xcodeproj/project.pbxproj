@@ -12,7 +12,6 @@
 		3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8641E9637DE0081B670 /* ProductName.swift */; };
 		840A165F1E967B3300CC359A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A165E1E967B3300CC359A /* Main.storyboard */; };
 		840A166B1E9683EE00CC359A /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A166A1E9683EE00CC359A /* profile.swift */; };
-		84F8AA121E964F0D008B7A1E /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CB1E94C401006C9E75 /* Assets.xcassets */; };
@@ -58,7 +57,6 @@
 		3CDEB8641E9637DE0081B670 /* ProductName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductName.swift; sourceTree = "<group>"; };
 		840A165E1E967B3300CC359A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		840A166A1E9683EE00CC359A /* profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
-		84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
-				84F8AA111E964F0D008B7A1E /* CosmosDistrib.swift */,
 				9846E3F21E94CC3E006C9E75 /* ImageSlideshow */,
 				9846E3C31E94C401006C9E75 /* Kaidee */,
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
@@ -362,7 +359,6 @@
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
-				84F8AA121E964F0D008B7A1E /* CosmosDistrib.swift in Sources */,
 				9846E42A1E962B0E006C9E75 /* Login.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
