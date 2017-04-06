@@ -183,6 +183,9 @@
                                 <rect key="frame" x="337" y="28" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Edit"/>
+                                <connections>
+                                    <segue destination="D8h-rp-EYs" kind="modal" id="W4b-Rj-NXG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your order:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atS-tV-dJJ">
                                 <rect key="frame" x="9" y="189" width="85" height="21"/>
@@ -226,6 +229,9 @@
                                         <state key="normal" title="confirm order">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="conOr1:" destination="O1J-Gw-w7f" eventType="touchUpInside" id="Smf-ta-6ep"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeA-Sh-Ebd">
                                         <rect key="frame" x="273" y="126" width="94" height="30"/>
@@ -233,6 +239,9 @@
                                         <state key="normal" title="confirm order">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="conOr3:" destination="O1J-Gw-w7f" eventType="touchUpInside" id="0ZO-6t-vDd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYg-kO-Iwf">
                                         <rect key="frame" x="273" y="71" width="94" height="30"/>
@@ -240,6 +249,9 @@
                                         <state key="normal" title="confirm order">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="conOr2:" destination="O1J-Gw-w7f" eventType="touchUpInside" id="P4D-8m-NZg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Gu-Ce-2nU">
                                         <rect key="frame" x="273" y="175" width="94" height="30"/>
@@ -247,6 +259,9 @@
                                         <state key="normal" title="confirm order">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="conOr4:" destination="O1J-Gw-w7f" eventType="touchUpInside" id="nJm-6g-9JS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -296,6 +311,17 @@
                             <constraint firstItem="1tp-QX-saz" firstAttribute="top" secondItem="1M6-Dc-glc" secondAttribute="bottom" constant="21" id="x45-0X-PF1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="conOr1" destination="igI-VW-GKL" id="F3w-WI-aRp"/>
+                        <outlet property="conOr2" destination="CYg-kO-Iwf" id="wNP-M6-SId"/>
+                        <outlet property="conOr3" destination="qeA-Sh-Ebd" id="9Lk-nO-NuU"/>
+                        <outlet property="conOr4" destination="3Gu-Ce-2nU" id="zdd-fd-ahM"/>
+                        <outlet property="order1" destination="w5m-Qw-6fj" id="zWH-L1-e9m"/>
+                        <outlet property="order2" destination="kmd-8L-UB8" id="RM1-mY-8J8"/>
+                        <outlet property="order3" destination="91M-Oy-24V" id="8IR-9C-jjP"/>
+                        <outlet property="order4" destination="ATB-X5-zpP" id="m5E-Xe-AeX"/>
+                        <outlet property="orderBox" destination="1M6-Dc-glc" id="pnf-Ow-V5s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rB7-a2-ipH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1540,6 +1566,6 @@
         <image name="ic_cross_white.png" width="13" height="13"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Dav-ag-l14"/>
+        <segue reference="W4b-Rj-NXG"/>
     </inferredMetricsTieBreakers>
 </document>

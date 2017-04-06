@@ -21,8 +21,24 @@ class profile: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet var orderBox: UIScrollView!
+    @IBOutlet weak var order1: UILabel!
+    @IBOutlet weak var order2: UILabel!
+    @IBOutlet weak var order3: UILabel!
+    @IBOutlet weak var order4: UILabel!
 
+    @IBAction func conOr1(_ sender: Any) {
+    }
+    @IBAction func conOr2(_ sender: Any) {
+    }
+    @IBAction func conOr3(_ sender: Any) {
+    }
+    @IBAction func conOr4(_ sender: Any) {
+    }
+    
+    
     /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
