@@ -20,14 +20,8 @@ class setting: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBOutlet weak var displayName: UILabel!
-
-
-    @IBOutlet weak var displayEmail: UILabel!
     
-    
+
     /*
     // MARK: - Navigation
 

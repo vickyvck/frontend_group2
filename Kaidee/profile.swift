@@ -1,5 +1,5 @@
 //
-//  editEmail.swift
+//  profile.swift
 //  Kaidee
 //
 //  Created by Admin on 4/6/2560 BE.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class editEmail: UIViewController {
+class profile: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +21,7 @@ class editEmail: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet var inputEmail: UITextField!
 
-    @IBAction func saveEmail(_ sender: Any) {
-        var email = String(inputEmail.text!)
-        //เก็บค่า -อีเมลไว้ใน email
-    }
     /*
     // MARK: - Navigation
 
