@@ -12,6 +12,7 @@
 		842C21C61E9605C200A04BB8 /* editEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C51E9605C200A04BB8 /* editEmail.swift */; };
 		842C21C81E96082700A04BB8 /* editPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C71E96082700A04BB8 /* editPass.swift */; };
 		842C21CA1E96101300A04BB8 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C91E96101300A04BB8 /* profile.swift */; };
+		842C22081E96368E00A04BB8 /* editbankaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C22071E96368E00A04BB8 /* editbankaccount.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		842C21C51E9605C200A04BB8 /* editEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editEmail.swift; sourceTree = "<group>"; };
 		842C21C71E96082700A04BB8 /* editPass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editPass.swift; sourceTree = "<group>"; };
 		842C21C91E96101300A04BB8 /* profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		842C22071E96368E00A04BB8 /* editbankaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editbankaccount.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				842C21C51E9605C200A04BB8 /* editEmail.swift */,
 				842C21C71E96082700A04BB8 /* editPass.swift */,
 				842C21C91E96101300A04BB8 /* profile.swift */,
+				842C22071E96368E00A04BB8 /* editbankaccount.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842C22081E96368E00A04BB8 /* editbankaccount.swift in Sources */,
 				842C21C61E9605C200A04BB8 /* editEmail.swift in Sources */,
 				842C21C81E96082700A04BB8 /* editPass.swift in Sources */,
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
