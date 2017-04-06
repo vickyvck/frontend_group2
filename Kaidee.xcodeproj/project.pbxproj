@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842C21C21E95FC6E00A04BB8 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C11E95FC6E00A04BB8 /* setting.swift */; };
+		842C21C41E9604A400A04BB8 /* editName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C31E9604A400A04BB8 /* editName.swift */; };
+		842C21C61E9605C200A04BB8 /* editEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C51E9605C200A04BB8 /* editEmail.swift */; };
+		842C21C81E96082700A04BB8 /* editPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C21C71E96082700A04BB8 /* editPass.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842C21C11E95FC6E00A04BB8 /* setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
+		842C21C31E9604A400A04BB8 /* editName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editName.swift; sourceTree = "<group>"; };
+		842C21C51E9605C200A04BB8 /* editEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editEmail.swift; sourceTree = "<group>"; };
+		842C21C71E96082700A04BB8 /* editPass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editPass.swift; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
 				9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
+				842C21C11E95FC6E00A04BB8 /* setting.swift */,
+				842C21C31E9604A400A04BB8 /* editName.swift */,
+				842C21C51E9605C200A04BB8 /* editEmail.swift */,
+				842C21C71E96082700A04BB8 /* editPass.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -336,12 +348,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842C21C61E9605C200A04BB8 /* editEmail.swift in Sources */,
+				842C21C81E96082700A04BB8 /* editPass.swift in Sources */,
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
+				842C21C41E9604A400A04BB8 /* editName.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
+				842C21C21E95FC6E00A04BB8 /* setting.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
@@ -591,6 +607,7 @@
 				9846E3EB1E94C401006C9E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9846E3EC1E94C401006C9E75 /* Build configuration list for PBXNativeTarget "KaideeTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +616,7 @@
 				9846E3EE1E94C401006C9E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9846E3EF1E94C401006C9E75 /* Build configuration list for PBXNativeTarget "KaideeUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +625,7 @@
 				9846E3F11E94C401006C9E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
