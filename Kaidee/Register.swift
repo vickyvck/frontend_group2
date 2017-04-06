@@ -9,7 +9,7 @@
 import UIKit
 
 class Register: UIViewController {
-
+//...
     @IBAction func LoginButton2(_ sender: Any) {
     }
     @IBAction func PhoneNo(_ sender: Any) {

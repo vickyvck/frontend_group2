@@ -16,7 +16,6 @@
 		3CDEB86D1E968AB80081B670 /* payment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB86C1E968AB80081B670 /* payment2.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
-		9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3C81E94C401006C9E75 /* Main.storyboard */; };
 		9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CB1E94C401006C9E75 /* Assets.xcassets */; };
 		9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */; };
 		9846E3DA1E94C401006C9E75 /* KaideeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3D91E94C401006C9E75 /* KaideeTests.swift */; };
@@ -65,7 +64,6 @@
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9846E3C91E94C401006C9E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9846E3CB1E94C401006C9E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9846E3CE1E94C401006C9E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9846E3D01E94C401006C9E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
-				3CDEB8661E9645160081B670 /* CosmosDistrib.swift */,
 				9846E3F21E94CC3E006C9E75 /* ImageSlideshow */,
 				9846E3C31E94C401006C9E75 /* Kaidee */,
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
@@ -141,9 +138,9 @@
 		9846E3C31E94C401006C9E75 /* Kaidee */ = {
 			isa = PBXGroup;
 			children = (
+				840A165E1E967B3300CC359A /* Main.storyboard */,
 				9846E3C41E94C401006C9E75 /* AppDelegate.swift */,
 				9846E3C61E94C401006C9E75 /* ViewController.swift */,
-				9846E3C81E94C401006C9E75 /* Main.storyboard */,
 				9846E4251E960860006C9E75 /* Preference.swift */,
 				9846E4231E95FE9B006C9E75 /* Register.swift */,
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
@@ -334,10 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A165F1E967B3300CC359A /* Main.storyboard in Resources */,
 				9846E4091E94CC3E006C9E75 /* ic_cross_white@3x.png in Resources */,
 				9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */,
 				9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */,
-				9846E3CA1E94C401006C9E75 /* Main.storyboard in Resources */,
 				9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */,
 				9846E4081E94CC3E006C9E75 /* ic_cross_white@2x.png in Resources */,
 				9846E40A1E94CC3E006C9E75 /* .gitkeep in Resources */,
@@ -366,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
+				840A16611E96801700CC359A /* editbankaccount.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
 				3CDEB8671E9645160081B670 /* CosmosDistrib.swift in Sources */,
@@ -375,9 +373,11 @@
 				3CDEB86B1E9681D40081B670 /* Payment1.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */,
+				840A16691E96824800CC359A /* editName.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
 				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
+				840A166B1E9683EE00CC359A /* profile.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
 				3CDEB8691E964F740081B670 /* Cart.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
@@ -419,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9846E3C81E94C401006C9E75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9846E3C91E94C401006C9E75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
