@@ -111,6 +111,7 @@
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
+				3CDEB85A1E960B930081B670 /* CosmosDistrib.swift */,
 				9846E3F21E94CC3E006C9E75 /* ImageSlideshow */,
 				9846E3C31E94C401006C9E75 /* Kaidee */,
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
@@ -360,15 +361,16 @@
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
-				842C21C41E9604A400A04BB8 /* editName.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
-				842C21C21E95FC6E00A04BB8 /* setting.swift in Sources */,
+				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
+				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				842C21CA1E96101300A04BB8 /* profile.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
+				3CDEB85B1E960B930081B670 /* CosmosDistrib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
