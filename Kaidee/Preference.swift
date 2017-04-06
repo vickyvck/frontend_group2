@@ -17,6 +17,7 @@ class Preference: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //comment
         
         Picker1.delegate = self
         Picker1.dataSource = self
