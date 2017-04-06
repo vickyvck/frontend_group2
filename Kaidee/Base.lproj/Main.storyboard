@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -161,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rB7-a2-ipH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="166" y="1570"/>
+            <point key="canvasLocation" x="526" y="1576"/>
         </scene>
         <!--Preference-->
         <scene sceneID="gUd-ak-tHe">
@@ -240,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKH-Bk-fkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893.60000000000002" y="816.34182908545733"/>
+            <point key="canvasLocation" x="1017" y="817"/>
         </scene>
         <!--Login-->
         <scene sceneID="wCG-X4-IUh">
@@ -581,7 +581,6 @@
         <!--Edit Name-->
         <scene sceneID="DCa-PY-yEp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ncM-7Z-3PP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Yau-jd-EVd" customClass="editName" customModule="Kaidee" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="59W-PJ-gCT"/>
@@ -621,6 +620,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncM-7Z-3PP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-183" y="1495"/>
         </scene>
