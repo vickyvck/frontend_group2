@@ -384,6 +384,7 @@
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E4261E960860006C9E75 /* Preference.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
+				840A166D1E968D8E00CC359A /* profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
