@@ -10,14 +10,15 @@
 		3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8561E95FDD20081B670 /* sellerProfile.swift */; };
 		3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8621E9625FB0081B670 /* SellerProduct.swift */; };
 		3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8641E9637DE0081B670 /* ProductName.swift */; };
-		3CDEB8671E9645160081B670 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8661E9645160081B670 /* CosmosDistrib.swift */; };
 		3CDEB8691E964F740081B670 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8681E964F740081B670 /* Cart.swift */; };
 		3CDEB86B1E9681D40081B670 /* Payment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB86A1E9681D40081B670 /* Payment1.swift */; };
 		3CDEB86D1E968AB80081B670 /* payment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB86C1E968AB80081B670 /* payment2.swift */; };
+		3CDEB8711E974A890081B670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDEB8701E974A890081B670 /* Main.storyboard */; };
+		3CDEB8731E974AFE0081B670 /* payment3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8721E974AFE0081B670 /* payment3.swift */; };
+		3CDEB8771E9762170081B670 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8761E9762170081B670 /* CosmosDistrib.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CB1E94C401006C9E75 /* Assets.xcassets */; };
-		9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */; };
 		9846E3DA1E94C401006C9E75 /* KaideeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3D91E94C401006C9E75 /* KaideeTests.swift */; };
 		9846E3E51E94C401006C9E75 /* KaideeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3E41E94C401006C9E75 /* KaideeUITests.swift */; };
 		9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3F41E94CC3E006C9E75 /* .gitkeep */; };
@@ -33,7 +34,6 @@
 		9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */; };
 		9846E4241E95FE9B006C9E75 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4231E95FE9B006C9E75 /* Register.swift */; };
 		9846E4261E960860006C9E75 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4251E960860006C9E75 /* Preference.swift */; };
-		9846E42A1E962B0E006C9E75 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4291E962B0E006C9E75 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,18 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0357ECA5528DAF89A252317D /* Pods-KaideeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeTests/Pods-KaideeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CDEB8561E95FDD20081B670 /* sellerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sellerProfile.swift; sourceTree = "<group>"; };
 		3CDEB8621E9625FB0081B670 /* SellerProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerProduct.swift; sourceTree = "<group>"; };
 		3CDEB8641E9637DE0081B670 /* ProductName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductName.swift; sourceTree = "<group>"; };
-		3CDEB8661E9645160081B670 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		3CDEB8681E964F740081B670 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		3CDEB86A1E9681D40081B670 /* Payment1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment1.swift; sourceTree = "<group>"; };
 		3CDEB86C1E968AB80081B670 /* payment2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payment2.swift; sourceTree = "<group>"; };
+		3CDEB8701E974A890081B670 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3CDEB8721E974AFE0081B670 /* payment3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payment3.swift; sourceTree = "<group>"; };
+		3CDEB8761E9762170081B670 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		5D4CB89C64664992FA0F674B /* Pods-KaideeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85BAAD97182F637BE88927FF /* Pods-Kaidee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaidee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee.release.xcconfig"; sourceTree = "<group>"; };
+		957C02DD8D4F9CA548A9B98B /* Pods-Kaidee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaidee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee.debug.xcconfig"; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3C41E94C401006C9E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9846E3C61E94C401006C9E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9846E3CB1E94C401006C9E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9846E3CE1E94C401006C9E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9846E3D01E94C401006C9E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9846E3D51E94C401006C9E75 /* KaideeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaideeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9846E3D91E94C401006C9E75 /* KaideeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaideeTests.swift; sourceTree = "<group>"; };
@@ -86,7 +91,8 @@
 		9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		9846E4231E95FE9B006C9E75 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		9846E4251E960860006C9E75 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
-		9846E4291E962B0E006C9E75 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B92A7FEBDD08D9A0217736F0 /* Pods-KaideeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeTests/Pods-KaideeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D36C81BEDAC2AB4A6769532B /* Pods-KaideeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845244A92C7BEC7EAB17CF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				957C02DD8D4F9CA548A9B98B /* Pods-Kaidee.debug.xcconfig */,
+				85BAAD97182F637BE88927FF /* Pods-Kaidee.release.xcconfig */,
+				0357ECA5528DAF89A252317D /* Pods-KaideeTests.debug.xcconfig */,
+				B92A7FEBDD08D9A0217736F0 /* Pods-KaideeTests.release.xcconfig */,
+				D36C81BEDAC2AB4A6769532B /* Pods-KaideeUITests.debug.xcconfig */,
+				5D4CB89C64664992FA0F674B /* Pods-KaideeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9846E3B81E94C401006C9E75 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +141,7 @@
 				9846E3D81E94C401006C9E75 /* KaideeTests */,
 				9846E3E31E94C401006C9E75 /* KaideeUITests */,
 				9846E3C21E94C401006C9E75 /* Products */,
+				845244A92C7BEC7EAB17CF17 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,13 +158,13 @@
 		9846E3C31E94C401006C9E75 /* Kaidee */ = {
 			isa = PBXGroup;
 			children = (
-				840A165E1E967B3300CC359A /* Main.storyboard */,
 				9846E3C41E94C401006C9E75 /* AppDelegate.swift */,
 				9846E3C61E94C401006C9E75 /* ViewController.swift */,
 				9846E4251E960860006C9E75 /* Preference.swift */,
 				9846E4231E95FE9B006C9E75 /* Register.swift */,
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
-				9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */,
+				3CDEB8701E974A890081B670 /* Main.storyboard */,
+				3CDEB8761E9762170081B670 /* CosmosDistrib.swift */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
 				3CDEB8561E95FDD20081B670 /* sellerProfile.swift */,
 				3CDEB8621E9625FB0081B670 /* SellerProduct.swift */,
@@ -152,6 +172,7 @@
 				3CDEB8681E964F740081B670 /* Cart.swift */,
 				3CDEB86A1E9681D40081B670 /* Payment1.swift */,
 				3CDEB86C1E968AB80081B670 /* payment2.swift */,
+				3CDEB8721E974AFE0081B670 /* payment3.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -231,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9846E3E91E94C401006C9E75 /* Build configuration list for PBXNativeTarget "Kaidee" */;
 			buildPhases = (
+				27860E369D73E29B5F5126C1 /* [CP] Check Pods Manifest.lock */,
 				9846E3BD1E94C401006C9E75 /* Sources */,
 				9846E3BE1E94C401006C9E75 /* Frameworks */,
 				9846E3BF1E94C401006C9E75 /* Resources */,
+				46B1CCB7A5B2D79F59C9D7AA /* [CP] Embed Pods Frameworks */,
+				D32080C53B3EF3135367A9CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9846E3EC1E94C401006C9E75 /* Build configuration list for PBXNativeTarget "KaideeTests" */;
 			buildPhases = (
+				481618E3CB833A2B25A06C85 /* [CP] Check Pods Manifest.lock */,
 				9846E3D11E94C401006C9E75 /* Sources */,
 				9846E3D21E94C401006C9E75 /* Frameworks */,
 				9846E3D31E94C401006C9E75 /* Resources */,
+				D4F20EA5BAE13EE03E995F3A /* [CP] Embed Pods Frameworks */,
+				1EFDB681DC2A75A2284DCDD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9846E3EF1E94C401006C9E75 /* Build configuration list for PBXNativeTarget "KaideeUITests" */;
 			buildPhases = (
+				82EB2331220E428408F9BCD7 /* [CP] Check Pods Manifest.lock */,
 				9846E3DC1E94C401006C9E75 /* Sources */,
 				9846E3DD1E94C401006C9E75 /* Frameworks */,
 				9846E3DE1E94C401006C9E75 /* Resources */,
+				7D3CCC53573A165F955CFCE3 /* [CP] Embed Pods Frameworks */,
+				BE66C3BA8FEC68F84CF60010 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,9 +361,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840A165F1E967B3300CC359A /* Main.storyboard in Resources */,
+				3CDEB8711E974A890081B670 /* Main.storyboard in Resources */,
 				9846E4091E94CC3E006C9E75 /* ic_cross_white@3x.png in Resources */,
-				9846E3CF1E94C401006C9E75 /* LaunchScreen.storyboard in Resources */,
 				9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */,
 				9846E4071E94CC3E006C9E75 /* .gitkeep in Resources */,
 				9846E4081E94CC3E006C9E75 /* ic_cross_white@2x.png in Resources */,
@@ -357,34 +386,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EFDB681DC2A75A2284DCDD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaideeTests/Pods-KaideeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27860E369D73E29B5F5126C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46B1CCB7A5B2D79F59C9D7AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481618E3CB833A2B25A06C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3CCC53573A165F955CFCE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EB2331220E428408F9BCD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE66C3BA8FEC68F84CF60010 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32080C53B3EF3135367A9CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F20EA5BAE13EE03E995F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KaideeTests/Pods-KaideeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9846E3BD1E94C401006C9E75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
-				840A16611E96801700CC359A /* editbankaccount.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
-				3CDEB8671E9645160081B670 /* CosmosDistrib.swift in Sources */,
 				3CDEB86D1E968AB80081B670 /* payment2.swift in Sources */,
-				9846E42A1E962B0E006C9E75 /* Login.swift in Sources */,
+				3CDEB8731E974AFE0081B670 /* payment3.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
 				3CDEB86B1E9681D40081B670 /* Payment1.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */,
-				840A16691E96824800CC359A /* editName.swift in Sources */,
+				3CDEB8771E9762170081B670 /* CosmosDistrib.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
 				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
-				840A166B1E9683EE00CC359A /* profile.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
 				3CDEB8691E964F740081B670 /* Cart.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E4261E960860006C9E75 /* Preference.swift in Sources */,
 				9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */,
-				840A166D1E968D8E00CC359A /* profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,17 +581,6 @@
 			targetProxy = 9846E3E11E94C401006C9E75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9846E3CD1E94C401006C9E75 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9846E3CE1E94C401006C9E75 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9846E3E71E94C401006C9E75 /* Debug */ = {
@@ -473,6 +625,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = /Users/mink/Documents/Frontend_group2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -517,6 +670,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = /Users/mink/Documents/Frontend_group2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -526,11 +680,16 @@
 		};
 		9846E3EA1E94C401006C9E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957C02DD8D4F9CA548A9B98B /* Pods-Kaidee.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Kaidee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/mink/Documents/Frontend_group2/Kaidee.xcodeproj;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Vicky.Kaidee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -539,19 +698,26 @@
 		};
 		9846E3EB1E94C401006C9E75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BAAD97182F637BE88927FF /* Pods-Kaidee.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = Kaidee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/mink/Documents/Frontend_group2/Kaidee.xcodeproj;
 				PRODUCT_BUNDLE_IDENTIFIER = Vicky.Kaidee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		9846E3ED1E94C401006C9E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0357ECA5528DAF89A252317D /* Pods-KaideeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -566,6 +732,7 @@
 		};
 		9846E3EE1E94C401006C9E75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92A7FEBDD08D9A0217736F0 /* Pods-KaideeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +747,7 @@
 		};
 		9846E3F01E94C401006C9E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36C81BEDAC2AB4A6769532B /* Pods-KaideeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KaideeUITests/Info.plist;
@@ -593,6 +761,7 @@
 		};
 		9846E3F11E94C401006C9E75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4CB89C64664992FA0F674B /* Pods-KaideeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KaideeUITests/Info.plist;

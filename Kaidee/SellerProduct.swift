@@ -20,21 +20,21 @@ class SellerProduct: UIViewController {
     @IBAction func InfoProduct(_ sender: Any) {
     }
     
-    @IBOutlet weak var Product1: UIImageView!
-    
-    @IBOutlet weak var Product2: UIImageView!
-    
-    @IBOutlet weak var Product3: UIImageView!
-    
-    @IBOutlet weak var Product4: UIImageView!
-    
-    @IBOutlet weak var Product5: UIImageView!
-    
-    @IBOutlet weak var Product6: UIImageView!
-    
-    @IBOutlet weak var Product7: UIImageView!
-    
-    @IBOutlet weak var Product8: UIImageView!
+//    @IBOutlet weak var Product1: UIImageView!
+//    
+//    @IBOutlet weak var Product2: UIImageView!
+//    
+//    @IBOutlet weak var Product3: UIImageView!
+//    
+//    @IBOutlet weak var Product4: UIImageView!
+//    
+//    @IBOutlet weak var Product5: UIImageView!
+//    
+//    @IBOutlet weak var Product6: UIImageView!
+//    
+//    @IBOutlet weak var Product7: UIImageView!
+//    
+//    @IBOutlet weak var Product8: UIImageView!
     @IBOutlet weak var ScrollProduct: UIView!
     @IBAction func BottomBar(_ sender: Any) {
     }
@@ -50,15 +50,15 @@ class SellerProduct: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func product1(_ sender: Any) {
+        self.pushToProductName()
     }
-    */
+    
+    func pushToProductName() {
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ProductNameVC") as? ProductName {
+            vc.tagID = 0
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 
 }

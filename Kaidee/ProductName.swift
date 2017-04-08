@@ -9,6 +9,8 @@
 import UIKit
 
 class ProductName: UIViewController {
+    
+    var tagID: Int = -1
 
     override func viewDidLoad() {
         super.viewDidLoad()
