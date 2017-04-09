@@ -34,6 +34,9 @@
 		9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */; };
 		9846E4241E95FE9B006C9E75 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4231E95FE9B006C9E75 /* Register.swift */; };
 		9846E4261E960860006C9E75 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E4251E960860006C9E75 /* Preference.swift */; };
+		9851F5231E99482B007C797E /* ProductRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851F5221E99482B007C797E /* ProductRecommendation.swift */; };
+		98DC0CAF1E99EE37002BC113 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC0CAE1E99EE37002BC113 /* Login.swift */; };
+		98DC0CB11E99F755002BC113 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC0CB01E99F755002BC113 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,9 @@
 		9846E4001E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		9846E4231E95FE9B006C9E75 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		9846E4251E960860006C9E75 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		9851F5221E99482B007C797E /* ProductRecommendation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductRecommendation.swift; sourceTree = "<group>"; };
+		98DC0CAE1E99EE37002BC113 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		98DC0CB01E99F755002BC113 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		B92A7FEBDD08D9A0217736F0 /* Pods-KaideeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeTests/Pods-KaideeTests.release.xcconfig"; sourceTree = "<group>"; };
 		D36C81BEDAC2AB4A6769532B /* Pods-KaideeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +170,7 @@
 				9846E4231E95FE9B006C9E75 /* Register.swift */,
 				9846E3CB1E94C401006C9E75 /* Assets.xcassets */,
 				3CDEB8701E974A890081B670 /* Main.storyboard */,
+				98DC0CB01E99F755002BC113 /* Filter.swift */,
 				3CDEB8761E9762170081B670 /* CosmosDistrib.swift */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
 				3CDEB8561E95FDD20081B670 /* sellerProfile.swift */,
@@ -173,6 +180,8 @@
 				3CDEB86A1E9681D40081B670 /* Payment1.swift */,
 				3CDEB86C1E968AB80081B670 /* payment2.swift */,
 				3CDEB8721E974AFE0081B670 /* payment3.swift */,
+				9851F5221E99482B007C797E /* ProductRecommendation.swift */,
+				98DC0CAE1E99EE37002BC113 /* Login.swift */,
 			);
 			path = Kaidee;
 			sourceTree = "<group>";
@@ -529,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9851F5231E99482B007C797E /* ProductRecommendation.swift in Sources */,
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
@@ -536,10 +546,12 @@
 				3CDEB8731E974AFE0081B670 /* payment3.swift in Sources */,
 				9846E4111E94CC3E006C9E75 /* ZoomAnimatedTransitioning.swift in Sources */,
 				3CDEB86B1E9681D40081B670 /* Payment1.swift in Sources */,
+				98DC0CAF1E99EE37002BC113 /* Login.swift in Sources */,
 				9846E4101E94CC3E006C9E75 /* UIImageView+Tools.swift in Sources */,
 				3CDEB8651E9637DE0081B670 /* ProductName.swift in Sources */,
 				3CDEB8771E9762170081B670 /* CosmosDistrib.swift in Sources */,
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
+				98DC0CB11E99F755002BC113 /* Filter.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
 				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,

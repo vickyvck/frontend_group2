@@ -2,7 +2,7 @@
 //  Login.swift
 //  Kaidee
 //
-//  Created by Vicky on 4/6/2560 BE.
+//  Created by Vicky on 4/9/2560 BE.
 //  Copyright © 2560 Group2. All rights reserved.
 //
 
@@ -10,6 +10,13 @@ import UIKit
 
 class Login: UIViewController {
 
+    @IBOutlet weak var register: UIButton!
+    
+    @IBOutlet weak var phoneno: UITextField!
+    
+    @IBOutlet weak var login: UIButton!
+    
+    @IBOutlet weak var password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

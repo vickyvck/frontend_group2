@@ -10,12 +10,7 @@ import UIKit
 
 class Register: UIViewController {
 //...
-    @IBAction func LoginButton2(_ sender: Any) {
-    }
-    @IBAction func PhoneNo(_ sender: Any) {
-    }
-    @IBAction func OTP(_ sender: Any) {
-    }
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
 
