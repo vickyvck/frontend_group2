@@ -16,6 +16,13 @@
 		3CDEB8711E974A890081B670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDEB8701E974A890081B670 /* Main.storyboard */; };
 		3CDEB8731E974AFE0081B670 /* payment3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8721E974AFE0081B670 /* payment3.swift */; };
 		3CDEB8771E9762170081B670 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDEB8761E9762170081B670 /* CosmosDistrib.swift */; };
+		84FF85591E9BE92A00BD00C1 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF85581E9BE92A00BD00C1 /* setting.swift */; };
+		84FF855B1E9BE95F00BD00C1 /* editbankaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF855A1E9BE95F00BD00C1 /* editbankaccount.swift */; };
+		84FF855D1E9BEFA000BD00C1 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF855C1E9BEFA000BD00C1 /* profile.swift */; };
+		84FF855F1E9BF8F300BD00C1 /* wishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF855E1E9BF8F300BD00C1 /* wishlist.swift */; };
+		84FF85611E9BF8FB00BD00C1 /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF85601E9BF8FB00BD00C1 /* comment.swift */; };
+		84FF85631E9BF90C00BD00C1 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF85621E9BF90C00BD00C1 /* MyCollectionViewCell.swift */; };
+		84FF85651E9BF9D700BD00C1 /* browseProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF85641E9BF9D700BD00C1 /* browseProduct.swift */; };
 		9846E3C51E94C401006C9E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C41E94C401006C9E75 /* AppDelegate.swift */; };
 		9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846E3C61E94C401006C9E75 /* ViewController.swift */; };
 		9846E3CC1E94C401006C9E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9846E3CB1E94C401006C9E75 /* Assets.xcassets */; };
@@ -68,6 +75,13 @@
 		3CDEB8721E974AFE0081B670 /* payment3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payment3.swift; sourceTree = "<group>"; };
 		3CDEB8761E9762170081B670 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		5D4CB89C64664992FA0F674B /* Pods-KaideeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaideeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KaideeUITests/Pods-KaideeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84FF85581E9BE92A00BD00C1 /* setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
+		84FF855A1E9BE95F00BD00C1 /* editbankaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editbankaccount.swift; sourceTree = "<group>"; };
+		84FF855C1E9BEFA000BD00C1 /* profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		84FF855E1E9BF8F300BD00C1 /* wishlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wishlist.swift; sourceTree = "<group>"; };
+		84FF85601E9BF8FB00BD00C1 /* comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
+		84FF85621E9BF90C00BD00C1 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		84FF85641E9BF9D700BD00C1 /* browseProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = browseProduct.swift; sourceTree = "<group>"; };
 		85BAAD97182F637BE88927FF /* Pods-Kaidee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaidee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee.release.xcconfig"; sourceTree = "<group>"; };
 		957C02DD8D4F9CA548A9B98B /* Pods-Kaidee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kaidee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kaidee/Pods-Kaidee.debug.xcconfig"; sourceTree = "<group>"; };
 		9846E3C11E94C401006C9E75 /* Kaidee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,12 +186,19 @@
 				3CDEB8701E974A890081B670 /* Main.storyboard */,
 				98DC0CB01E99F755002BC113 /* Filter.swift */,
 				3CDEB8761E9762170081B670 /* CosmosDistrib.swift */,
+				84FF85641E9BF9D700BD00C1 /* browseProduct.swift */,
 				9846E3D01E94C401006C9E75 /* Info.plist */,
+				84FF855E1E9BF8F300BD00C1 /* wishlist.swift */,
 				3CDEB8561E95FDD20081B670 /* sellerProfile.swift */,
+				84FF85601E9BF8FB00BD00C1 /* comment.swift */,
+				84FF85621E9BF90C00BD00C1 /* MyCollectionViewCell.swift */,
+				84FF855C1E9BEFA000BD00C1 /* profile.swift */,
 				3CDEB8621E9625FB0081B670 /* SellerProduct.swift */,
 				3CDEB8641E9637DE0081B670 /* ProductName.swift */,
 				3CDEB8681E964F740081B670 /* Cart.swift */,
 				3CDEB86A1E9681D40081B670 /* Payment1.swift */,
+				84FF85581E9BE92A00BD00C1 /* setting.swift */,
+				84FF855A1E9BE95F00BD00C1 /* editbankaccount.swift */,
 				3CDEB86C1E968AB80081B670 /* payment2.swift */,
 				3CDEB8721E974AFE0081B670 /* payment3.swift */,
 				9851F5221E99482B007C797E /* ProductRecommendation.swift */,
@@ -541,6 +562,8 @@
 				9851F5231E99482B007C797E /* ProductRecommendation.swift in Sources */,
 				9846E40D1E94CC3E006C9E75 /* ImageSlideshowItem.swift in Sources */,
 				9846E4241E95FE9B006C9E75 /* Register.swift in Sources */,
+				84FF855D1E9BEFA000BD00C1 /* profile.swift in Sources */,
+				84FF855F1E9BF8F300BD00C1 /* wishlist.swift in Sources */,
 				9846E40E1E94CC3E006C9E75 /* InputSource.swift in Sources */,
 				3CDEB86D1E968AB80081B670 /* payment2.swift in Sources */,
 				3CDEB8731E974AFE0081B670 /* payment3.swift in Sources */,
@@ -553,9 +576,14 @@
 				9846E40C1E94CC3E006C9E75 /* ImageSlideshow.swift in Sources */,
 				98DC0CB11E99F755002BC113 /* Filter.swift in Sources */,
 				9846E3C71E94C401006C9E75 /* ViewController.swift in Sources */,
+				84FF85651E9BF9D700BD00C1 /* browseProduct.swift in Sources */,
+				84FF855B1E9BE95F00BD00C1 /* editbankaccount.swift in Sources */,
 				3CDEB8631E9625FB0081B670 /* SellerProduct.swift in Sources */,
 				3CDEB8571E95FDD20081B670 /* sellerProfile.swift in Sources */,
+				84FF85611E9BF8FB00BD00C1 /* comment.swift in Sources */,
 				3CDEB8691E964F740081B670 /* Cart.swift in Sources */,
+				84FF85631E9BF90C00BD00C1 /* MyCollectionViewCell.swift in Sources */,
+				84FF85591E9BE92A00BD00C1 /* setting.swift in Sources */,
 				9846E40F1E94CC3E006C9E75 /* UIImage+AspectFit.swift in Sources */,
 				9846E40B1E94CC3E006C9E75 /* FullScreenSlideshowViewController.swift in Sources */,
 				9846E4261E960860006C9E75 /* Preference.swift in Sources */,

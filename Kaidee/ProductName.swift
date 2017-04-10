@@ -22,6 +22,20 @@ class ProductName: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var menuBtn: UISegmentedControl!
+    @IBAction func menu(_ sender: Any) {
+        if (menuBtn.selectedSegmentIndex==0){
+            self.performSegue(withIdentifier: "toHome", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==1){
+            self.performSegue(withIdentifier: "toProfile", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==2){
+            self.performSegue(withIdentifier: "toWish", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==3){
+            self.performSegue(withIdentifier: "toSell", sender: sender)
+        }
+        
+    }
+
     
 
     /*
