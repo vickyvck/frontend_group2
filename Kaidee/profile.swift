@@ -44,6 +44,27 @@ class profile: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+
+    
+    @IBAction func confirm1(_ sender: UIButton) {
+         self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    @IBAction func confirm2(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    @IBAction func confirm3(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    @IBAction func confirm4(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    @IBAction func confirm5(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    @IBAction func confirm6(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toComment", sender: sender)
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

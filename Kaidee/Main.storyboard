@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hfs-Vh-FH2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gK3-64-3X4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -3228,7 +3228,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="HqT-sH-XJw" kind="show" id="a0b-K2-Cbd"/>
+                                                    <action selector="confirm1:" destination="gK3-64-3X4" eventType="touchUpInside" id="GH1-dn-VMM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkf-Y5-Vnl">
@@ -3238,7 +3238,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="HqT-sH-XJw" kind="show" id="X41-LZ-Wnx"/>
+                                                    <action selector="confirm2:" destination="gK3-64-3X4" eventType="touchUpInside" id="uXI-aC-dqb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Af-Oy-OB6">
@@ -3248,7 +3248,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="HqT-sH-XJw" kind="show" id="NwS-Q0-5Hw"/>
+                                                    <action selector="confirm3:" destination="gK3-64-3X4" eventType="touchUpInside" id="kJN-pc-7OT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dF-7f-3KI">
@@ -3257,6 +3257,9 @@
                                                 <state key="normal" title="confirm order">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="confirm5:" destination="gK3-64-3X4" eventType="touchUpInside" id="MB2-9d-LJp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPy-So-gJ1">
                                                 <rect key="frame" x="250" y="240" width="110" height="30"/>
@@ -3264,6 +3267,9 @@
                                                 <state key="normal" title="confirm order">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="confirm6:" destination="gK3-64-3X4" eventType="touchUpInside" id="ZJV-3A-uRe"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="3428905820" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4g3-Rr-Uti">
                                                 <rect key="frame" x="8" y="34" width="234" height="26"/>
@@ -3308,7 +3314,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="HqT-sH-XJw" kind="show" id="oz4-yj-QrA"/>
+                                                    <action selector="confirm4:" destination="gK3-64-3X4" eventType="touchUpInside" id="k1u-rq-84L"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3n-NS-4bt">
@@ -3519,6 +3525,7 @@
                         <segue destination="hcK-f4-ZvO" kind="show" identifier="toWish" id="smb-HA-vX3"/>
                         <segue destination="Hjt-X1-4Hv" kind="show" identifier="toSell" id="QuW-dY-GFd"/>
                         <segue destination="PCQ-ps-33q" kind="show" identifier="toHome" id="S6Y-bQ-6SW"/>
+                        <segue destination="HqT-sH-XJw" kind="show" identifier="toComment" id="ZR7-fz-sPM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggE-Mr-mLd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4323,14 +4330,13 @@
         <image name="you" width="311" height="276"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="S6Y-bQ-6SW"/>
-        <segue reference="pha-xz-qxP"/>
-        <segue reference="igm-ow-vu9"/>
-        <segue reference="HIU-Om-nD5"/>
-        <segue reference="y6d-x6-lIa"/>
-        <segue reference="mnR-ZT-fao"/>
-        <segue reference="a0b-K2-Cbd"/>
-        <segue reference="smb-HA-vX3"/>
         <segue reference="AvL-Bl-hbT"/>
+        <segue reference="igm-ow-vu9"/>
+        <segue reference="y6d-x6-lIa"/>
+        <segue reference="S6Y-bQ-6SW"/>
+        <segue reference="l5Y-BV-h5J"/>
+        <segue reference="smb-HA-vX3"/>
+        <segue reference="mnR-ZT-fao"/>
+        <segue reference="QuW-dY-GFd"/>
     </inferredMetricsTieBreakers>
 </document>
