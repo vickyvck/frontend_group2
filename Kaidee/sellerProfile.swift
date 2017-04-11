@@ -10,6 +10,8 @@ import UIKit
 
 class sellerProfile: UIViewController {
 
+    
+  
     @IBOutlet weak var SellerPic: UIImageView!
    
 //    @IBOutlet weak var ScrollComment: UIView!
