@@ -8,7 +8,25 @@
 
 import UIKit
 
-class Cart: UIViewController {
+class Cart:
+
+
+
+UIViewController {
+    @IBAction func remove(_ sender: UIButton) {
+        
+        let removeAlert = UIAlertController(title: "Remove", message: "Are you sure to remove product from cart.", preferredStyle: UIAlertControllerStyle.alert)
+        
+        removeAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            print("confirm to remove")
+        }))
+        
+        removeAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("don't remove")
+        }))
+        
+        present(removeAlert, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
