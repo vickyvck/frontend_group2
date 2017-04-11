@@ -11,6 +11,7 @@ import UIKit
 class sellerProfile: UIViewController {
 
     
+ 
   
     @IBOutlet weak var SellerPic: UIImageView!
    
