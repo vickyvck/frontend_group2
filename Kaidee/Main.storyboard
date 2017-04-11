@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hfs-Vh-FH2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hfs-Vh-FH2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1745,6 +1745,9 @@
                                     <constraint firstAttribute="height" constant="40" id="jx1-rc-VjR"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="cart"/>
+                                <connections>
+                                    <segue destination="Nhf-WN-SVG" kind="modal" id="zAz-aT-Pie"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwH-qj-XHa">
                                 <rect key="frame" x="197" y="-131.5" width="21.5" height="17"/>
@@ -1761,9 +1764,6 @@
                                 <state key="normal" backgroundImage="star">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="Nhf-WN-SVG" kind="modal" id="lMx-aT-jJJ"/>
-                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="qIQ-l2-S91">
                                 <rect key="frame" x="0.0" y="617" width="375" height="51"/>
@@ -2361,7 +2361,18 @@
                                 <state key="normal" title="Confirm">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="confirm:" destination="o2W-wF-f35" eventType="touchUpInside" id="V7x-T3-tTr"/>
+                                    <segue destination="PCQ-ps-33q" kind="modal" id="CGk-ew-FBz"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpg-Dy-ubb">
+                                <rect key="frame" x="16" y="472" width="329" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -2381,6 +2392,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="FKg-rT-Hli" secondAttribute="trailing" constant="63" id="zyA-UE-sd6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmlabel" destination="Jpg-Dy-ubb" id="d64-Ja-NHD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noL-f6-BcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2560,6 +2574,9 @@
                                                 <state key="normal" title="Remove">
                                                     <color key="titleColor" red="0.0052015867879999997" green="0.0028731467550000001" blue="0.001106182996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="remove:" destination="Nhf-WN-SVG" eventType="touchUpInside" id="GTi-pJ-XDn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMm-cZ-zts">
                                                 <rect key="frame" x="235" y="772" width="97" height="45"/>
@@ -4396,12 +4413,12 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AvL-Bl-hbT"/>
-        <segue reference="C3s-Cy-R5B"/>
-        <segue reference="aSu-SU-ylw"/>
-        <segue reference="VvX-H7-kJh"/>
-        <segue reference="Hub-rs-eEl"/>
-        <segue reference="D3b-gn-EDj"/>
-        <segue reference="y6d-x6-lIa"/>
         <segue reference="mnR-ZT-fao"/>
+        <segue reference="Hub-rs-eEl"/>
+        <segue reference="aSu-SU-ylw"/>
+        <segue reference="CGk-ew-FBz"/>
+        <segue reference="y6d-x6-lIa"/>
+        <segue reference="D3b-gn-EDj"/>
+        <segue reference="VvX-H7-kJh"/>
     </inferredMetricsTieBreakers>
 </document>

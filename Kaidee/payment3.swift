@@ -10,6 +10,11 @@ import UIKit
 
 class payment3: UIViewController {
 
+    
+    @IBAction func confirm(_ sender: UIButton) {
+        confirmlabel.text="upload success"
+    }
+    @IBOutlet weak var confirmlabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
