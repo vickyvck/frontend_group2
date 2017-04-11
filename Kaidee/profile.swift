@@ -47,22 +47,87 @@ class profile: UIViewController {
 
     
     @IBAction func confirm1(_ sender: UIButton) {
-         self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating for product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
+         
     }
     @IBAction func confirm2(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating for product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
+        
     }
     @IBAction func confirm3(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating for product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
+       
     }
     @IBAction func confirm4(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating for product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
+        
     }
     @IBAction func confirm5(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating for product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
+
     }
     @IBAction func confirm6(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "toComment", sender: sender)
+        let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating of product delivery", preferredStyle: UIAlertControllerStyle.alert)
+        
+        refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+        
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
+            print("Handle Cancel Logic here")
+        }))
+        
+        present(refreshAlert, animated: true, completion: nil)
     }
     
     
