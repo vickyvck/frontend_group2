@@ -11,15 +11,15 @@ import UIKit
 class comment: UIViewController, UITextViewDelegate {
     var Array = ["5","4","3","2","1"]
   
-    @IBAction func onSkip(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+//    @IBAction func onCancel(_ sender: Any) {
+//        self.dismiss(animated: true, completion: nil)
+//    }
     @IBOutlet weak var productPic: UIImageView!
     @IBOutlet weak var sellerID: UILabel!
     @IBOutlet weak var orderID: UILabel!
     @IBOutlet weak var comment: UITextView!
     @IBOutlet weak var rateSeg: UISegmentedControl!
-    @IBOutlet weak var shipSeg: UISegmentedControl!
+//    @IBOutlet weak var shipSeg: UISegmentedControl!
     @IBOutlet weak var menuBtn: UISegmentedControl!
     @IBAction func menu(_ sender: Any) {
         if (menuBtn.selectedSegmentIndex==0){
@@ -61,9 +61,10 @@ class comment: UIViewController, UITextViewDelegate {
 
     
     @IBAction func commentSubmit(_ sender: Any) {
-        print(shipSeg.titleForSegment(at: shipSeg.selectedSegmentIndex)!)
+
         print(rateSeg.titleForSegment(at: rateSeg.selectedSegmentIndex) ?? 5)
         print(comment.text!)
+        self.performSegue(withIdentifier: "toProfile", sender: sender)
         
     }
     /*

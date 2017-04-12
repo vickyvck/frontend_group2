@@ -22,30 +22,30 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Kaidee.profile.con1.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  symbolName = "Kaidee.profile.myImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
                   moduleName = "Kaidee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Desktop/kaideeFE/Kaidee/profile.swift"
-                  timestampString = "513669027.979997"
+                  timestampString = "513707815.155858"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "27">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Kaidee.profile.con1.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  symbolName = "Kaidee.profile.myImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
                   moduleName = "Kaidee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Desktop/kaideeFE/Kaidee/profile.swift"
-                  timestampString = "513669027.982944"
+                  timestampString = "513707815.157392"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "42">
                </Location>
                <Location
@@ -56,11 +56,11 @@
                   moduleName = "Kaidee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Desktop/kaideeFE/Kaidee/profile.swift"
-                  timestampString = "513669027.986301"
+                  timestampString = "513707815.158791"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "70">
                </Location>
                <Location
@@ -71,11 +71,11 @@
                   moduleName = "Kaidee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Desktop/kaideeFE/Kaidee/profile.swift"
-                  timestampString = "513669027.989808"
+                  timestampString = "513707815.160383"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>

@@ -66,6 +66,7 @@ class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControl
 
     @IBAction func onSave(_ sender: Any) {
         self.performSegue(withIdentifier: "toDescription", sender: sender)
+        
     }
     @IBOutlet weak var menuBtn: UISegmentedControl!
     @IBAction func menu(_ sender: Any) {
@@ -82,14 +83,16 @@ class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControl
 
 
 
-    /*
+  
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if (segue.identifier == "toBrowse") {
+//                    let destinationVC = segue.destination as! browseProduct
+//                    destinationVC.productImage.image=myImage.image!
+//                }
+//    }
+   
 
 }

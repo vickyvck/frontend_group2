@@ -9,6 +9,12 @@
 import UIKit
 
 class browseProduct: UIViewController {
+    
+    @IBAction func onCancel(_ sender: Any) {
+        
+    }
+    
+    @IBOutlet weak var productImage: UIImageView!
 
     @IBOutlet weak var productID: UILabel!
     @IBOutlet weak var prodDes: UITextView!
