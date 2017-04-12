@@ -9,17 +9,18 @@ import UIKit
 
 class setting: UIViewController {
     
-        @IBOutlet weak var name: UILabel!
+       // @IBOutlet weak var name: UILabel!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var bank: UILabel!
     
+    
     @IBOutlet weak var phone: UILabel!
-
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        name.layer.borderWidth = 0.5
-        name.layer.borderColor = UIColor.gray.cgColor
-        name.layer.cornerRadius = 4
+//        name.layer.borderWidth = 0.5
+//        name.layer.borderColor = UIColor.gray.cgColor
+//        name.layer.cornerRadius = 4
         email.layer.borderWidth = 0.5
         email.layer.borderColor = UIColor.black.cgColor
         email.layer.cornerRadius = 4

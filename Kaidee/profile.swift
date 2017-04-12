@@ -147,6 +147,7 @@ class profile: UIViewController,UIImagePickerControllerDelegate,UINavigationCont
         let refreshAlert = UIAlertController(title: "Confirm order", message: "This will lead to comment and rating of product delivery", preferredStyle: UIAlertControllerStyle.alert)
         
         refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            (self.performSegue(withIdentifier: "toComment", sender: sender))
         
         }))
         

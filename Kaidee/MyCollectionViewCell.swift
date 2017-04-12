@@ -16,11 +16,16 @@ class MyCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var c: UILabel!
     @IBOutlet weak var p: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var status: UILabel!
     
     @IBAction func addToCart(_ sender: Any) {
         print("add at \(String(describing: indexPath?.row))")
 
     }
     @IBOutlet weak var addCart: UIButton!
+    
+    @IBAction func removeWish(_ sender: UIButton) {
+        print("remove from wishlist", indexPath?.row)
+    }
     
 }

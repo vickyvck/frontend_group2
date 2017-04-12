@@ -14,6 +14,19 @@ class wishlist: UIViewController, UICollectionViewDelegate, UICollectionViewData
     var images = ["4","1","2","3","4","1","2","3"]
     var priceList = ["3000","5900","600","0","3000","5900","600","0"]
     var cate = ["bag","clothes","collection","share","bag","clothes","collection","share",]
+    var s = ["first hand","second hand","second hand", "first hand","first hand","second hand","second hand", "first hand",]
+    
+    @IBOutlet weak var orderbtn: UISegmentedControl!
+    @IBAction func onOrderBy(_ sender: UISegmentedControl) {
+        if(orderbtn.selectedSegmentIndex==1){
+            print("order by price")
+        }else if(orderbtn.selectedSegmentIndex==0){
+            print("order by category")
+        }
+
+        
+    }
+    
 
       override func viewDidLoad() {
 //        super.viewDidLoad()
@@ -29,7 +42,7 @@ class wishlist: UIViewController, UICollectionViewDelegate, UICollectionViewData
         // Dispose of any resources that can be recreated.
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return images.count
+        return images.count //นับว่ามีกี่รูป จะได้สร้างช่องตามรูป
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -38,7 +51,9 @@ class wishlist: UIViewController, UICollectionViewDelegate, UICollectionViewData
         cell.c.text = cell.c.text!+cate[indexPath.row]
         cell.p.text = "Price:"+priceList[indexPath.row]
         cell.indexPath = indexPath;
-        cell.id = 29;
+     //   cell.id = 29; เผื่อแยก cell จากไอดี ตอนนี้แยกจากอินเด็กอยู่ (อยู่ช่องที่เท่าไหร่)
+        cell.status.text=cell.status.text!+s[indexPath.row]
+        //ค่า c,p,status ดูจาก mycollectionViewcell naa
  
         return cell
     }
