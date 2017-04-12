@@ -21,7 +21,7 @@ class editbankaccount: UIViewController {
     }
     
     @IBAction func onBack(_ sender: Any) {
-        self.dismiss(animated: <#T##Bool#>, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBOutlet var accountName: UITextField!
@@ -35,7 +35,7 @@ class editbankaccount: UIViewController {
         var ANum = String(accountNum.text!) //keep account num
         //NOTE ยังไม่ได้เช็ค จำนวนเลข
         var BName = String(bankName.text!) //keep bank name
-        self.performSegue(withIdentifier: "onSave", sender: <#T##Any?#>)
+        self.dismiss(animated: true, completion: nil)
     }
     
     

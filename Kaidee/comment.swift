@@ -11,6 +11,9 @@ import UIKit
 class comment: UIViewController, UITextViewDelegate {
     var Array = ["5","4","3","2","1"]
   
+    @IBAction func onSkip(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     @IBOutlet weak var productPic: UIImageView!
     @IBOutlet weak var sellerID: UILabel!
     @IBOutlet weak var orderID: UILabel!

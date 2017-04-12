@@ -24,8 +24,15 @@ class editEmail: UIViewController {
     
     @IBAction func saveEmail(_ sender: Any) {
         var email = String(inputEmail.text!)
+        self.dismiss(animated: true, completion: nil)
         //เก็บค่า -อีเมลไว้ใน email
     }
+    
+    @IBAction func onBack(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
     /*
      // MARK: - Navigation
      // In a storyboard-based application, you will often want to do a little preparation before navigation

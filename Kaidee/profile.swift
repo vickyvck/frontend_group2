@@ -8,22 +8,49 @@
 
 import UIKit
 
-class profile: UIViewController {
+class profile: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+    
+    
+    @IBOutlet weak var myImage: UIImageView!
 
-   
-    @IBOutlet weak var menuBtn: UISegmentedControl!
-    @IBAction func menu(_ sender: Any) {
-        if (menuBtn.selectedSegmentIndex==0){
-            self.performSegue(withIdentifier: "toHome", sender: sender)
-        }else if (menuBtn.selectedSegmentIndex==1){
-         //   self.performSegue(withIdentifier: "toProfile", sender: sender)
-        }else if (menuBtn.selectedSegmentIndex==2){
-            self.performSegue(withIdentifier: "toWish", sender: sender)
-        }else if (menuBtn.selectedSegmentIndex==3){
-            self.performSegue(withIdentifier: "toSell", sender: sender)
-        }
+    @IBAction func editPIC(_ sender: Any) {
+        let image = UIImagePickerController()
+        image.delegate=self
         
+        
+        let refreshAlert = UIAlertController(title: "Photo Access", message: "Choose photo source", preferredStyle: .actionSheet)
+        
+        refreshAlert.addAction(UIAlertAction(title: "camera", style: .default, handler: { (action: UIAlertAction) in
+            if UIImagePickerController.isSourceTypeAvailable(.camera){
+                image.sourceType = UIImagePickerControllerSourceType.camera
+                image.allowsEditing = false
+                self.present(image,animated:true)
+            }else{ }
+        }))
+        
+        refreshAlert.addAction(UIAlertAction(title: "album", style: .default, handler: { (action: UIAlertAction) in
+            image.sourceType = UIImagePickerControllerSourceType.photoLibrary
+            image.allowsEditing = false
+            self.present(image,animated:true,completion: nil)
+        }))
+        refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        self.present(refreshAlert,animated:true)
     }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage{
+            myImage.image=image
+        }else{
+            //error msg
+        }
+        picker.dismiss(animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion:nil )
+    }
+    
+
+    
     @IBOutlet weak var con1: UIButton!
     
     @IBOutlet weak var con2: UIButton!
@@ -142,6 +169,21 @@ class profile: UIViewController {
     @IBOutlet weak var or4: UILabel!
     @IBOutlet weak var or5: UILabel!
     @IBOutlet weak var or6: UILabel!
+    
+    @IBOutlet weak var menuBtn: UISegmentedControl!
+    
+    @IBAction func menu(_ sender: Any) {
+        if (menuBtn.selectedSegmentIndex==0){
+            self.performSegue(withIdentifier: "toHome", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==1){
+        //    self.performSegue(withIdentifier: "toProfile", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==2){
+            self.performSegue(withIdentifier: "toWish", sender: sender)
+        }else if (menuBtn.selectedSegmentIndex==3){
+            self.performSegue(withIdentifier: "toSell", sender: sender)
+        }
+        
+    }
     /*
      // MARK: - Navigation
      

@@ -13,9 +13,8 @@ class setting: UIViewController {
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var bank: UILabel!
     
-    @IBAction func toBank(_ sender: Any) {
-         self.performSegue(withIdentifier: "toBank", sender: sender)
-    }
+    @IBOutlet weak var phone: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         name.layer.borderWidth = 0.5
@@ -27,6 +26,9 @@ class setting: UIViewController {
         bank.layer.borderWidth = 0.5
         bank.layer.borderColor = UIColor.black.cgColor
         bank.layer.cornerRadius = 4
+        phone.layer.borderWidth = 0.5
+        phone.layer.borderColor = UIColor.black.cgColor
+        phone.layer.cornerRadius = 4
         
         
         
@@ -34,6 +36,9 @@ class setting: UIViewController {
     }
     
 
+    @IBAction func toProfile(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
