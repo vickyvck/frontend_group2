@@ -2382,6 +2382,7 @@
                     </view>
                     <connections>
                         <outlet property="confirmlabel" destination="Jpg-Dy-ubb" id="d64-Ja-NHD"/>
+                        <outlet property="slip" destination="1W4-j4-eKS" id="209-ce-tHq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noL-f6-BcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4401,12 +4402,12 @@
     <inferredMetricsTieBreakers>
         <segue reference="AvL-Bl-hbT"/>
         <segue reference="cYI-gt-GsD"/>
-        <segue reference="b3W-RR-14K"/>
-        <segue reference="pha-xz-qxP"/>
-        <segue reference="B5K-SA-3nl"/>
+        <segue reference="CGk-ew-FBz"/>
+        <segue reference="EvB-nf-huk"/>
         <segue reference="mrs-ig-c7g"/>
         <segue reference="QuW-dY-GFd"/>
-        <segue reference="EvB-nf-huk"/>
+        <segue reference="pha-xz-qxP"/>
+        <segue reference="B5K-SA-3nl"/>
         <segue reference="smb-HA-vX3"/>
     </inferredMetricsTieBreakers>
 </document>

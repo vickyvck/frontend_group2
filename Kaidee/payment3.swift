@@ -10,6 +10,7 @@ import UIKit
 
 class payment3: UIViewController {
 
+    @IBOutlet weak var slip: UIImageView!
     
     @IBAction func confirm(_ sender: UIButton) {
         confirmlabel.text="upload success"
