@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xkE-6D-aS5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hfs-Vh-FH2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1583,11 +1583,11 @@
                         <viewControllerLayoutGuide type="bottom" id="x6Q-5h-5hU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3Xu-qK-Bci">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qO0-K1-1fD">
-                                <rect key="frame" x="0.0" y="0.0" width="376" height="177"/>
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="44"/>
                                 <color key="backgroundColor" red="0.29803921570000003" green="0.3921568627" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.29803921570000003" green="0.3921568627" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.29803921570000003" green="0.3921568627" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1601,7 +1601,7 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redbag" translatesAutoresizingMaskIntoConstraints="NO" id="2EL-QG-hzo">
-                                <rect key="frame" x="16" y="194" width="152" height="126"/>
+                                <rect key="frame" x="16" y="61" width="152" height="126"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="126" id="Oo5-j2-pTR"/>
                                     <constraint firstAttribute="width" constant="152" id="XMD-ZM-jty"/>
@@ -1609,13 +1609,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npw-J3-Vkk">
-                                <rect key="frame" x="205" y="205" width="154" height="27"/>
+                                <rect key="frame" x="205" y="72" width="154" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeG-L1-QAQ">
-                                <rect key="frame" x="30" y="431" width="203" height="28"/>
+                                <rect key="frame" x="30" y="298" width="203" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="qW2-RH-PGO"/>
                                     <constraint firstAttribute="width" constant="203" id="tz9-X9-nPa"/>
@@ -1625,7 +1625,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-zn-YXJ">
-                                <rect key="frame" x="30" y="566" width="203" height="28"/>
+                                <rect key="frame" x="30" y="433" width="203" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="ER3-nP-R5U"/>
                                     <constraint firstAttribute="width" constant="203" id="FSU-hF-az2"/>
@@ -1635,25 +1635,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD TO CART" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BC4-nb-Kpw">
-                                <rect key="frame" x="268" y="374" width="96" height="17"/>
+                                <rect key="frame" x="268" y="241" width="96" height="17"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD TO WISHLIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqo-eX-hQx">
-                                <rect key="frame" x="68" y="373" width="127" height="17"/>
+                                <rect key="frame" x="68" y="240" width="127" height="17"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiW-gl-Sjs">
-                                <rect key="frame" x="212" y="281" width="48" height="32"/>
+                                <rect key="frame" x="212" y="148" width="48" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bahts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nw9-k2-NVX">
-                                <rect key="frame" x="268" y="280" width="67" height="32"/>
+                                <rect key="frame" x="268" y="147" width="67" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="P6p-iN-U2W"/>
                                 </constraints>
@@ -1662,7 +1662,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RRc-00-ZhS">
-                                <rect key="frame" x="26" y="479" width="322" height="79"/>
+                                <rect key="frame" x="26" y="346" width="322" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="79" id="XqD-t5-I0U"/>
@@ -1728,7 +1728,7 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUU-gR-npt">
-                                <rect key="frame" x="216" y="362" width="44" height="40"/>
+                                <rect key="frame" x="216" y="229" width="44" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="44" id="MmR-Vd-rSg"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="iYt-w5-pPp"/>
@@ -1740,13 +1740,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwH-qj-XHa">
-                                <rect key="frame" x="222" y="243" width="19.5" height="17"/>
+                                <rect key="frame" x="222" y="110" width="19.5" height="17"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7uV-HJ-Xjk">
-                                <rect key="frame" x="16" y="361" width="44" height="41"/>
+                                <rect key="frame" x="16" y="228" width="44" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="nrw-E7-xaN"/>
                                     <constraint firstAttribute="width" constant="44" id="sgo-gA-Qcl"/>
@@ -1759,7 +1759,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="qIQ-l2-S91">
-                                <rect key="frame" x="0.0" y="750" width="375" height="51"/>
+                                <rect key="frame" x="0.0" y="617" width="375" height="51"/>
                                 <segments>
                                     <segment title=""/>
                                     <segment title=""/>
@@ -1773,7 +1773,7 @@
                                 </connections>
                             </segmentedControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="nr5-qZ-n2A">
-                                <rect key="frame" x="22" y="748" width="57" height="52"/>
+                                <rect key="frame" x="22" y="615" width="57" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="57" id="EYj-1f-vgk"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="51" id="YMP-gT-Bgu"/>
@@ -1781,7 +1781,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="you" translatesAutoresizingMaskIntoConstraints="NO" id="KdM-mr-972">
-                                <rect key="frame" x="111" y="750" width="57" height="51"/>
+                                <rect key="frame" x="111" y="617" width="57" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="7OM-f7-6Hk"/>
                                     <constraint firstAttribute="width" constant="57" id="q24-Ib-eH7"/>
@@ -1795,7 +1795,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sell" translatesAutoresizingMaskIntoConstraints="NO" id="cR5-1Q-jyD">
-                                <rect key="frame" x="289" y="752" width="57" height="48"/>
+                                <rect key="frame" x="289" y="619" width="57" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="EeI-0a-Qc6"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="57" id="F5T-5w-6Px"/>
@@ -1808,7 +1808,7 @@
                                 <color key="currentPageIndicatorTintColor" red="0.29803921570000003" green="0.3921568627" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2v-Te-3tZ">
-                                <rect key="frame" x="256" y="236" width="90" height="30"/>
+                                <rect key="frame" x="256" y="103" width="90" height="30"/>
                                 <state key="normal" title="9480209521"/>
                                 <connections>
                                     <segue destination="0gC-6n-7PN" kind="modal" id="B5K-SA-3nl"/>
@@ -2313,7 +2313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPX-2g-dDp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2845.5999999999999" y="2614.5427286356826"/>
+            <point key="canvasLocation" x="2972" y="3324"/>
         </scene>
         <!--Payment3-->
         <scene sceneID="k7u-9u-0ei">
@@ -2787,9 +2787,6 @@
                                 <state key="normal" title="edit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="ZTI-om-gNx" kind="show" id="g6i-T8-StW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSk-Di-BGy">
                                 <rect key="frame" x="287" y="199" width="45" height="30"/>
@@ -2797,9 +2794,6 @@
                                 <state key="normal" title="edit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="JR0-lQ-IMv" kind="show" id="Qne-Zn-e6O"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZW-v2-ehS">
                                 <rect key="frame" x="287" y="292" width="45" height="30"/>
@@ -2807,9 +2801,6 @@
                                 <state key="normal" title="edit">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="0JG-Xb-q6Q" kind="show" id="iaQ-aM-Zbu"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0q-9X-QDj">
                                 <rect key="frame" x="58" y="432" width="131" height="21"/>
@@ -2837,7 +2828,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xkE-6D-aS5" kind="show" id="0Dg-ef-Ywe"/>
+                                    <action selector="toBank:" destination="MQ1-mi-2vu" eventType="touchUpInside" id="B3O-rW-aeK"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5nk-Jw-Al2">
@@ -2905,11 +2896,13 @@
                         <outlet property="bank" destination="Bri-f9-iX6" id="h0k-hF-MAZ"/>
                         <outlet property="email" destination="JLs-4Y-KyJ" id="EfD-PU-pD1"/>
                         <outlet property="name" destination="svY-Ni-4ec" id="Qc8-pn-atq"/>
+                        <segue destination="xkE-6D-aS5" kind="show" identifier="toBank" id="hGj-co-bxW"/>
+                        <segue destination="0JG-Xb-q6Q" kind="show" identifier="toPass" id="gpV-cp-Vit"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1zs-PI-QeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1196" y="1376.7616191904049"/>
+            <point key="canvasLocation" x="-873" y="484"/>
         </scene>
         <!--Editbankaccount-->
         <scene sceneID="gim-tu-NNw">
@@ -2952,7 +2945,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="c7Y-3h-3bK"/>
+                                    <action selector="saveAccount:" destination="xkE-6D-aS5" eventType="touchUpInside" id="Te2-sm-PGW"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFy-XQ-pAB">
@@ -2974,7 +2967,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Back to Setting"/>
                                 <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="cYI-gt-GsD"/>
+                                    <action selector="onBack:" destination="xkE-6D-aS5" eventType="touchUpInside" id="697-2M-lrc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3004,11 +2997,12 @@
                         <outlet property="accountName" destination="ssC-3E-Jd7" id="1Zi-0d-x0O"/>
                         <outlet property="accountNum" destination="95E-Dp-ybW" id="X6a-C0-gce"/>
                         <outlet property="bankName" destination="ajo-0W-K94" id="Zv7-dS-sbE"/>
+                        <segue destination="MQ1-mi-2vu" kind="show" identifier="onSave" id="IRT-1O-xPQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DyF-TB-JjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1919" y="1377"/>
+            <point key="canvasLocation" x="-2876" y="215"/>
         </scene>
         <!--Edit Email-->
         <scene sceneID="Fn6-bG-yap">
@@ -3040,7 +3034,6 @@
                                 </state>
                                 <connections>
                                     <action selector="saveEmail:" destination="JR0-lQ-IMv" eventType="touchUpInside" id="4MD-d3-zYQ"/>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="soF-Wr-sY8"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4f-Dr-TvZ">
@@ -3061,9 +3054,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Back to Setting"/>
-                                <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="bcj-HY-1Mf"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3120,7 +3110,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="Gs5-Bm-kfJ"/>
+                                    <action selector="savePass:" destination="0JG-Xb-q6Q" eventType="touchUpInside" id="lva-J5-apU"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="retype your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="06a-O7-AEq">
@@ -3147,9 +3137,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Back to Setting"/>
-                                <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="XqB-2x-y9c"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3171,10 +3158,13 @@
                             <constraint firstItem="nan-YX-C8i" firstAttribute="top" secondItem="06a-O7-AEq" secondAttribute="bottom" constant="16" id="yrw-cu-xdA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="MQ1-mi-2vu" kind="show" identifier="onSave" id="59S-s0-ela"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p6k-u5-7B5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2692" y="1376.7616191904049"/>
+            <point key="canvasLocation" x="-3206" y="1012"/>
         </scene>
         <!--Edit Name-->
         <scene sceneID="yBB-b5-7es">
@@ -3205,9 +3195,6 @@
                                 <state key="normal" title="SAVE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="mcd-Zh-pAI"/>
-                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-M8-WDl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -3227,9 +3214,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Back to Setting"/>
-                                <connections>
-                                    <segue destination="MQ1-mi-2vu" kind="show" id="r7G-AH-jN7"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -4383,6 +4367,41 @@
             </objects>
             <point key="canvasLocation" x="2126" y="1228"/>
         </scene>
+        <!--Sell-->
+        <scene sceneID="ZGw-Id-IH7">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="s4u-xk-mrj" customClass="sell" customModule="Kaidee" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lq2-73-0s3"/>
+                        <viewControllerLayoutGuide type="bottom" id="g5J-BH-y9D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B9v-dN-SjE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cu-Tb-XNw">
+                                <rect key="frame" x="67" y="54" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuA-E3-Mrp">
+                                <rect key="frame" x="187" y="280" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="importImage:" destination="s4u-xk-mrj" eventType="touchUpInside" id="Cma-H9-iIF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="myImage" destination="7cu-Tb-XNw" id="8G2-5a-AZ6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Z5-Rv-bUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2322" y="3907"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1158702_z" width="1500" height="1500"/>
@@ -4416,14 +4435,14 @@
         <image name="you" width="311" height="276"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JxY-1m-Nfq"/>
-        <segue reference="BgR-bT-4NS"/>
-        <segue reference="MTB-fH-HxX"/>
-        <segue reference="YuI-xi-6yL"/>
         <segue reference="mrs-ig-c7g"/>
+        <segue reference="QuW-dY-GFd"/>
+        <segue reference="Jwv-ES-vVU"/>
+        <segue reference="59S-s0-ela"/>
+        <segue reference="S6Y-bQ-6SW"/>
+        <segue reference="smb-HA-vX3"/>
+        <segue reference="B5K-SA-3nl"/>
         <segue reference="y6d-x6-lIa"/>
         <segue reference="0sh-Hy-L6r"/>
-        <segue reference="akz-eD-49y"/>
-        <segue reference="cYI-gt-GsD"/>
     </inferredMetricsTieBreakers>
 </document>

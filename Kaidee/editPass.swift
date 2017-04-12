@@ -28,6 +28,7 @@ class editPass: UIViewController {
     @IBAction func savePass(_ sender: Any) {
         var passWord = String(inputPassword.text!)
         //เก็บค่า -รหัสผ่านไว้ใน password
+        self.performSegue(withIdentifier: "onSave", sender: <#T##Any?#>)
     }
     
     

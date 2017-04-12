@@ -20,6 +20,9 @@ class editbankaccount: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBack(_ sender: Any) {
+        self.dismiss(animated: <#T##Bool#>, completion: nil)
+    }
     
     @IBOutlet var accountName: UITextField!
     
@@ -32,6 +35,7 @@ class editbankaccount: UIViewController {
         var ANum = String(accountNum.text!) //keep account num
         //NOTE ยังไม่ได้เช็ค จำนวนเลข
         var BName = String(bankName.text!) //keep bank name
+        self.performSegue(withIdentifier: "onSave", sender: <#T##Any?#>)
     }
     
     

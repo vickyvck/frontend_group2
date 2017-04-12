@@ -13,6 +13,9 @@ class setting: UIViewController {
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var bank: UILabel!
     
+    @IBAction func toBank(_ sender: Any) {
+         self.performSegue(withIdentifier: "toBank", sender: sender)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         name.layer.borderWidth = 0.5
@@ -35,6 +38,7 @@ class setting: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     
     /*
