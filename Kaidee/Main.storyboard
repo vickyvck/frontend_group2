@@ -2390,6 +2390,7 @@
                     </view>
                     <connections>
                         <outlet property="confirmlabel" destination="Jpg-Dy-ubb" id="d64-Ja-NHD"/>
+                        <outlet property="slip" destination="1W4-j4-eKS" id="209-ce-tHq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noL-f6-BcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
