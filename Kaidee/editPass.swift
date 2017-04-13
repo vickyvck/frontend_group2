@@ -24,6 +24,8 @@ class editPass: UIViewController {
     
     @IBOutlet var inputPassword: UITextField!
     
+    @IBOutlet weak var checkPass: UITextField!
+    
     
     @IBAction func savePass(_ sender: Any) {
         var passWord = String(inputPassword.text!)
