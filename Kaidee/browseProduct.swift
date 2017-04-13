@@ -11,10 +11,12 @@ import UIKit
 class browseProduct: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate,UITextFieldDelegate {
     
     @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
         
     }
     
     @IBOutlet weak var productImage: UIImageView!
+    var sendImage: UIImage!
 
     @IBOutlet weak var productID: UILabel!
     @IBOutlet weak var prodDes: UITextView!
@@ -46,6 +48,8 @@ class browseProduct: UIViewController,UIPickerViewDataSource,UIPickerViewDelegat
         hash2.layer.cornerRadius=5
         hash3.layer.cornerRadius=5
         hash4.layer.cornerRadius=5
+        productImage.image = sendImage
+        print("loaded")
 
         // Do any additional setup after loading the view.
     }

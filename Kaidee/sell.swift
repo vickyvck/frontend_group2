@@ -10,6 +10,7 @@ import UIKit
 
 class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
     @IBOutlet weak var myImage: UIImageView!
+    var importImage: UIImage!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -49,6 +50,8 @@ class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControl
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage{
             myImage.image=image
+            importImage=image
+            print("set image")
         }else{
             //error msg
         }
@@ -65,7 +68,7 @@ class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControl
     
 
     @IBAction func onSave(_ sender: Any) {
-        self.performSegue(withIdentifier: "toDescription", sender: sender)
+    //    self.performSegue(withIdentifier: "toDescription", sender: sender)
         
     }
     @IBOutlet weak var menuBtn: UISegmentedControl!
@@ -87,12 +90,13 @@ class sell: UIViewController,UINavigationControllerDelegate,UIImagePickerControl
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if (segue.identifier == "toBrowse") {
-//                    let destinationVC = segue.destination as! browseProduct
-//                    destinationVC.productImage.image=myImage.image!
-//                }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "toBrowse") {
+                    let destinationVC = segue.destination as! browseProduct
+                    destinationVC.sendImage=importImage
+            print("image send")
+                }
+    }
    
 
 }
